@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { PROJECTS } from '../constants/index.js'
 import { motion } from 'framer-motion'
 
 

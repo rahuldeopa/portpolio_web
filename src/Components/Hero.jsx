@@ -47,9 +47,9 @@ const Hero = () => {
             variants={childVariants}
             
             className='pb-2 text-4xl tracking-tighter lg:text-8xl '>Rahul Deopa</motion.h2>
-            <motion.spam 
+            <motion.span 
             variants={childVariants}
-            className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">Full Stack Developer</motion.spam>
+            className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">Full Stack Developer</motion.span>
               <motion.p 
               variants={childVariants}
               className='my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter'>
@@ -58,7 +58,7 @@ const Hero = () => {
               </motion.p>
               <motion.a 
               variants={childVariants}
-              href={`${process.env.PUBLIC_URL}/resume.pdf`}
+              href="/portpolio_web/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
