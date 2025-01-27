@@ -1,7 +1,7 @@
 {
   "name": "portpolio_web",
   "private": true,
-  "homepage": "https://rahuldeopa.github.io/portpolio_web",
+  "homepage": "https://rahuldeopa.github.io/portpolio_web_app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
