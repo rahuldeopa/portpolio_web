@@ -32,7 +32,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A web application that generates visualized stories with plot, characters, and dialogues using GPT models. Combines artificial intelligence and creative storytelling for an immersive experience.",
-    technologies: ["Angular", "OpenAI", "Java","Springboot","python"],
+    technologies: ["Angular", "Java","Springboot","python"],
     github: "https://github.com/rahuldeopa/tale-weaver",
   },
   {
@@ -56,7 +56,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "An e-commerce platform featuring product listings, user authentication, shopping carts, and payment integrations. Designed for seamless user experience and scalability.",
-    technologies: ["ReactJS", "Node.js", "MongoDB", "Stripe API"],
+    technologies: ["ReactJS", "Node.js", "MongoDB"],
     github: "https://github.com/rahuldeopa/eShop",
   },
 ];
