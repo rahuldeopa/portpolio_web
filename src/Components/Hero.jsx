@@ -2,6 +2,7 @@ import React from 'react'
 import profilePic from "../assets/1.jpg"
 import {HERO_CONTENT} from "../constants"
 import { motion } from 'framer-motion'
+import resume from '../assets/resume.pdf'
 const containerVariants={
   hidden:{opacity:0,x: -100},
   visible:{
@@ -27,7 +28,7 @@ const Hero = () => {
             <motion.img 
             src={profilePic} 
             alt="Rahul Deopa" 
-            className='border border-stone-900 rounded-4xl '
+            className='border border-stone-900 rounded-3xl '
             width={400}
             height={400}
             initial={{x:100,opacity:0}}
@@ -58,7 +59,7 @@ const Hero = () => {
               </motion.p>
               <motion.a 
               variants={childVariants}
-              href="/portpolio_web/resume.pdf"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
               download

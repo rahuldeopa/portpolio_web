@@ -4,17 +4,12 @@ import tailwindcss from '@tailwindcss/vite';
 
 
 export default defineConfig({
-  base:"/portpolio_web/",
   plugins: [
     react(),
     tailwindcss(),
   ],
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: undefined
-      }
-    }
-  }
- 
+  server: {
+    allowedHosts: ['7r5g2c-5173.csb.app'], 
+  },
+  base:"/portpolio_web",
 });

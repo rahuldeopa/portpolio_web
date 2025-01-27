@@ -1,16 +1,13 @@
 {
-  "name": "portpolio_web",
+  "name": "virtualr",
   "private": true,
-  "homepage": "https://rahuldeopa.github.io/portpolio_web_app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
