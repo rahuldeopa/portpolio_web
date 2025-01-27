@@ -1,76 +1,86 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
+import cert1 from "../assets/cert-1.png";
+import cert2 from "../assets/cert-2.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate software developer with expertise in building efficient, scalable, and innovative solutions. With hands-on experience in web and cloud technologies, I aim to create impactful applications that enhance user experience and solve real-world problems.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated software developer with a strong foundation in Java, Python, and SQL, complemented by experience in modern frameworks like ReactJS. I have worked on projects ranging from AI-powered storytelling to real-time bidding systems and face recognition-based attendance management. My focus lies in leveraging technology to craft practical solutions and contribute meaningfully to collaborative development efforts. When not coding, I enjoy exploring advancements in AI, cloud technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2023",
+    role: "Virtual Experience Participant",
+    company: "J.P. Morgan Chase & Co.",
+    description: `Analyzed large datasets of fraudulent financial payments as part of a cybersecurity virtual experience program. Applied data science techniques to identify patterns and improve fraud detection strategies.`,
+    technologies: ["Python", "Data Analysis", "Cybersecurity"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024",
+    role: "Freelancer",
+    company: "Fiverr",
+    description: `Provided freelancing services, including custom web development, bug fixing, and software solutions. Delivered high-quality projects for clients globally, meeting tight deadlines and ensuring client satisfaction.`,
+    technologies: ["ReactJS", "Node.js", "MySQL", "API Development"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Tale Weaver: AI-Powered Story Generator",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A web application that generates visualized stories with plot, characters, and dialogues using GPT models. Combines artificial intelligence and creative storytelling for an immersive experience.",
+    technologies: ["Angular", "OpenAI", "Java","Springboot","python"],
+    github: "https://github.com/rahuldeopa/tale-weaver",
   },
   {
-    title: "Task Management App",
+    title: "Real-Time Bidding System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A scalable system that enables real-time auction functionality, integrated with MySQL for secure and efficient data storage, hosted using cloud technologies.",
+    technologies: ["Python", "MySQL", "Cloud Services"],
+    github: "https://github.com/rahuldeopa/real-time-bidding",
   },
   {
-    title: "Portfolio Website",
+    title: "Attendance Management System Using Face Recognition",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A web application that captures and records entities using face recognition to mark attendance, ensuring accuracy and efficiency.",
+    technologies: ["Python", "OpenCV", "MySQL"],
+    github: "https://github.com/rahuldeopa/FaceRecognitionAttendanceUsingPython",
   },
   {
-    title: "Blogging Platform",
+    title: "E-Shop Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "An e-commerce platform featuring product listings, user authentication, shopping carts, and payment integrations. Designed for seamless user experience and scalability.",
+    technologies: ["ReactJS", "Node.js", "MongoDB", "Stripe API"],
+    github: "https://github.com/rahuldeopa/eShop",
+  },
+];
+export const CERTIFICATES = [
+  {
+    title: "Cybersecurity Virtual Experience Program",
+    organization: "J.P. Morgan Chase & Co.",
+    description:
+      "Analyzed large datasets of fraud in financial payment services as part of this virtual program.",
+    image: cert1,
+    link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/gWbW5qHAChqQBGWpA_JPMorgan%20Chase%20&%20Co._kM2NX8AzPg4nTvbPb_1702720727197_completion_certificate.pdf",
+  },
+  {
+    title: "Java Full Stack",
+    organization: "Wipro",
+    description:
+      "Mastered advanced concepts in Java, including springboot and performance optimization.",
+    image: cert2,
+    link: "https://cert.diceid.com/csr/cid/spp3er",
   },
 ];
 
 export const CONTACT = {
-  address: "Bilaspur Kandli,Dehradun ",
+  address: "Dehradun",
   phoneNo: "8445633859 ",
   email: "rahuldeopa1818@gmail.com",
 };
